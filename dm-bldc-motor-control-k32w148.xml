@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-bldc-motor-control-k32w148" type="demo" format="projectfile" versionSchema="1.0.0" name="BLDC Motor control K32W148">
+    <display_title>
+        K32W148 BLDC Motor control FreeRTOS application
+    </display_title>
+    <overview>
+        <![CDATA[This software shows how to control a Brushless DC (BLDC) Motor with K32W148.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="k32w"></family>
+        <family name="kw45"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="K32W148-EVK"></hw>
+        <hw id="KW45B41Z-EVK"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="pwm"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="motor_control"></category>
+        <category name="rtos"></category>
+    </categories>
+</data:item>
